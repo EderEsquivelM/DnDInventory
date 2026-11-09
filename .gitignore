@@ -1,0 +1,75 @@
+.env
+.env.local
+.env.*.local
+
+
+# ==========================================
+# JAVA & MAVEN / GRADLE (Backend)
+# ==========================================
+HELP.md
+target/
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+build/
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+.gradle/
+.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+
+# ==========================================
+# IDEs & EDITORES (STS, IntelliJ, NetBeans, VS Code)
+# ==========================================
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+
+# ==========================================
+# NODE.JS & ANGULAR (Frontend)
+# ==========================================
+**/node_modules/
+**/dist/
+**/.angular/
+.npmrc
+.yarn/
+.pnp.*
+
+
+# ==========================================
+# SISTEMA OPERATIVO Y OTROS
+# ==========================================
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
