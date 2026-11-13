@@ -8,6 +8,7 @@ public class DndInventoryBackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DndInventoryBackendApplication.class, args);
+		
 	}
 
 }
